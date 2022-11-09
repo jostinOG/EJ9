@@ -1,7 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        //Create now an object of the Customer class that must have as properties the age, the telephone, the name and the credit, you have to give them value and show them on the screen.
+        //Initialize the Client object
         Customer customer = new Customer(19, "Jostin", 603123456, 500);
         System.out.println(customer);
+        //Initialize the Employee object
+        Employee employee = new Employee(1, "Jostin", 618184618, 1200);
+        System.out.println(employee);
     }
 }
